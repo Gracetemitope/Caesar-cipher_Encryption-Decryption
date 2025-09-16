@@ -45,7 +45,6 @@ def fun02():
                 local_14.write(encrypted)
                 print(f"{encrypted}")
 
-
         print("Encryption complete. Output written to File1.txt")
     except FileNotFoundError:
         print("Error: The specified file was not found.")
